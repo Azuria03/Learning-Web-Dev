@@ -1,0 +1,79 @@
+body{
+    background-color: whitesmoke;
+    font-family:Helvetica;
+    color:black
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: gold;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s;
+}
+button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+#set-test{
+    font-weight: bold;
+    color:aliceblue;
+    font-style: italic;
+}
+.set-a{
+    font-style:italic;
+    color:blueviolet;
+}
+li{
+    text-align: center;
+    color:blue;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    align-items: baseline;
+}
+img{
+    height: 100vh;
+    width: 100vh;
+}
+.section1{
+    background-image: url(images/Intro\ Header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: block;
+    align-items: center;
+}
+.section2{
+    height:200px;
+    background-color: blue;
+}
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+    font-style: bold;
+    text-decoration: none;
+    padding: 0 50px 0 50px;
+    text-align: center;
+    display: flex;
+    border-radius: 20px;
+    height: 40px;
+}
+.nav:hover{
+    color: black;
+    font-weight: bold;
+    background-color: gold;
+
+}
+nav{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 10vh;
+}
