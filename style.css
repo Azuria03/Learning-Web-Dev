@@ -1,3 +1,4 @@
+/*ALL TEST*/
 body{
     background-color: whitesmoke;
     font-family:Helvetica;
@@ -75,4 +76,8 @@ nav{
     justify-content: center; /* Centers horizontally */
     align-items: center;     /* Centers vertically */
     height: 10vh;
+}
+svg{
+    height:400px;
+    width:400px;
 }
