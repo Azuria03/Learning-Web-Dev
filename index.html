@@ -28,6 +28,7 @@
         <title>AllOutMultisports</title>
     </head>
     <body>
+    <header>
         <nav>
             <figure>
                 <img id="logo"src="images/AOM.png" alt="AOM Logo">
@@ -40,9 +41,10 @@
             <a class="navigation"href="https://facebook.com">Toyville Bike Shop</a>
             <button>Contact Us</button>
         </nav>
-        <header>
+    </header>
         <section class="section1">
             <div id="INTRO" class="introheader">
+                <!--BETTER TO HAVE ONLY 1 H1 IN A WEBSITE = BETTER SEO or 1 <H1> per section-->
                 <h1>Every race tells a story,Let yours begin here</h1>
                 <h2>Born in the mountains of test Baguio, we create eco-friendly racesthat inspire healthy living and community spirit.</h2>
                 <button>Explore</button>
@@ -108,7 +110,14 @@
             </iframe>
             <!--IFRAME-->
 
-            <div><a href="https://facebook.com">Facebook</a></div>
+            <!--TARGET-->
+            <div><a class="class1link"href="https://facebook.com"target="_blank">New Tab</a></div>
+            <div><a href="https://facebook.com"target="_parent">Parent</a></div>
+            <div><a href="https://facebook.com"target="_top">Top</a></div>  <!--Absolute Method Website-->
+            <div><a href="./style.css" target="_top">File Absolute</a></div>    <!--Absolute Method File-->
+            <div><a href="style.css"target="_blank">Relative Method</a></div> <!--Relative Target if file is in the same as parent folder-->
+            <!--TARGET-->
+
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             <p>Praesent sed lacus odio. Ut varius tempor diam, </p>
             <p>sodales posuere eros dapibus non. Morbi in lectus bibendum,</p>

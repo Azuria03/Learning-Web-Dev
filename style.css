@@ -81,3 +81,16 @@ svg{
     height:400px;
     width:400px;
 }
+/*TESTING LINK STATES*/
+.class1link:visited{ /*AFTER CLICK*/
+    color: yellow;
+}
+.class1link:hover{ /*MOUSE HOVER*/
+    color: red;
+}
+.class1link:focus{ /*USE TAB TO TARGET*/
+    color: black;
+}
+.class1link:active{  /*HOLD MOUSE TO SEE EFFECT*/
+    color: black;
+}
