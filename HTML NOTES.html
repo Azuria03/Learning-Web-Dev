@@ -25,3 +25,37 @@ SEMANTICS
         <ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby> = small text shown above or below the main text
         <nav></nav> = navigation link
         <article></article> = self contained content on a web page
+
+        FORM <!--**TEST THIS: Formspree + Google Sheets**!-->
+        <form 
+        action="" -- specify where the form data should be sent
+        method=""> -- method to use when sending the form data GET=ASK FOR DATA, POST=SEND/SAVE DATA
+        <fieldset></fieldset> = group related inputs together
+        <legend></legend> = caption to describe the group of inputs
+    </form> = gather user information, action=form data will be sent upon submission,
+        <input 
+        value="" -- specify the value that will be sent to the server when the form is submitted
+        type="" -- defines the data type expected from the user (checkbox,radio,text,email)
+        placeholder="" -- text before input
+        minlength="" -- characters
+        maxlength="" -- characters
+        min="" -- minimum number
+        max="" -- maximum number
+        size="" -- size of input bar
+        required -- required input
+        focused -- when pressing tab
+        disabled -- cannot edit by user
+        readonly> -- can be focused but not editted
+        <select name="" id=""> = DROPDOWN MENU
+            <option 
+            selected -- default value
+            value="">
+            </option>
+        </select>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <label for="email">Email</label> = add label for input, for attribute and id need to be the same
+        <button type="submit(default)" type="button" type="reset"></button> or <input type="button" value="(Text inside the button)" />
+
+
+
+
