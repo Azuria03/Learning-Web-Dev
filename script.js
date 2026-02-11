@@ -15,3 +15,4 @@ const test3="good";
 console.log(test3);
 test = 10;
 console.log(test===test1);
+console.log("String"==="String");
